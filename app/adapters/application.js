@@ -1,5 +1,5 @@
-import DS from 'ember-data';
+import RESTAdapter from 'ember-data/adapters/rest';
 
-export default DS.RESTAdapter.extend({
+export default RESTAdapter.extend({
   host: 'http://localhost:42000'
 });
